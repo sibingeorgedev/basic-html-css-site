@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibin's Garden</title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+</head>
+
+<body>
+    <div id="pagecontainer">
+        <header>
+            <h1><a href="index.html">Sibin's Garden</a></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="gardening.html">Gardening</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <img id="heroimg" class="desktop" src="./imgs/gardening-theme-flat-lay.jpg" alt="Gardening Flat Lay">
+            <div id="wrapper">
+                <h2>Our Team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt efficitur turpis,
+                    eu aliquam risus malesuada in. Proin ut hendrerit elit, at vulputate leo. Sed vel libero
+                    eu massa fermentum luctus. Duis nec metus sit amet urna faucibus fermentum ac nec justo.
+                    Integer vitae nunc at dolor euismod consequat vel non ante. In hac habitasse platea dictumst.
+                    Curabitur hendrerit, ligula ut posuere imperdiet, libero justo fringilla libero, eget mollis
+                    nisi tellus eu lectus. Fusce auctor felis id ipsum gravida euismod. Proin at nunc in elit luctus
+                    vulputate. Vivamus non tortor auctor, aliquet enim a, congue elit. Nullam feugiat, justo a blandit
+                    hendrerit, tortor sapien tincidunt libero, ac luctus felis ligula sit amet libero.
+                </p>
+
+                <table>
+                    <caption>Our Team</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Store</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gabriel Green</td>
+                            <td>Manager</td>
+                            <td>Kitchener</td>
+                        </tr>
+                        <tr>
+                            <td>John Deer</td>
+                            <td>Plant Specialist</td>
+                            <td>Landon</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>Gardening Specialist</td>
+                            <td>Toronto</td>
+                        </tr>
+                        <tr>
+                            <td>Dorothy Washington</td>
+                            <td>Interior Plant Designer</td>
+                            <td>Gulpeh</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Join Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel libero eu massa fermentum luctus.
+                    Duis nec metus sit amet urna faucibus fermentum ac nec justo. Integer vitae nunc at dolor euismod
+                    consequat vel non ante. In hac habitasse platea dictumst...
+                </p>
+
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="interests">Interests:</label>
+                    <div id="interests">
+                        <label for="interest1"><input type="radio" id="interest1" name="interest" value="gardening">
+                            Gardening</label>
+                        <label for="interest2"><input type="radio" id="interest2" name="interest" value="plants">
+                            Plants</label>
+                        <label for="interest3"><input type="radio" id="interest3" name="interest" value="landscaping">
+                            Landscaping</label>
+                    </div>
+    
+                    <label for="experience">Experiences</label>
+                    <textarea id="experience" name="experience" rows="4" required></textarea>
+    
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+                
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="item33">
+                <h3>Store Hours</h3>
+                <ul>
+                    <li>Saturady: 8:00 AM - 6:00 PM</li>
+                    <li>Sunday: 10:00 AM - 5:00 PM</li>
+                </ul>
+            </div>
+            <div class="item33">
+                <h3>Stores</h3>
+                <ul>
+                    <li>Kitchener</li>
+                    <li>Waterloo</li>
+                    <li>Gulpeh</li>
+                    <li>Cambridge</li>
+                </ul>
+            </div>
+            <div class="item33">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plants.html">Plants</a></li>
+                    <li><a href="gardening.html">Gardening</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <p id="copyright">&copy; 2023 Sibin's Garden. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
